@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function btn(){
+    // var score = 0
+    var opt1 = document.getElementById('ans1')
+    
+    var opt2 = document.getElementById('ans2')
+   
+    var opt3 = document.getElementById('ans3')
+    correctans:{
+        opt3
+    }
+    var opt4 = document.getElementById('ans4')
+    
+    if( opt3.checked == true ){
+        alert('correct')
+    }
+   else{
+    alert('wrong')
+   }
+
+
+}
+
+    </script>
+</head>
+<body id="body4">
+    
+    <div>
+        <p><h2>Q4 : How many province in Pakistan? &nbsp; <sub>4/5</sub></h1></p>
+            <br><br>
+      </div>
+    <div>
+        <form action="./ques5.html">
+          <input type="radio" required id="ans1" name="4"> Seven <br> </input> <br>
+          <input type="radio" required id="ans2" name="4"> Three <br></input> <br>
+          <input type="radio" required id="ans3" name="4"> Four <br></input> <br>
+          <input type="radio" required id="ans4" name="4"> Five <br> </input>
+        
+       
+        </div>
+         <br><br><br>
+        
+        <button onclick="btn()" id="btn1">Next</button>
+    </form>
+</body>
+</html>

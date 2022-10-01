@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function btn(){
+    // var score = 0
+    var opt1 = document.getElementById('four')
+    
+    var opt2 = document.getElementById('five')
+   
+    var opt3 = document.getElementById('six')
+    var opt4 = document.getElementById('seven')
+    correctans:{
+        opt4
+    }
+    if( opt4.checked == true ){
+        alert('correct')
+    }
+   else{
+    alert('wrong')
+   }
+
+
+}
+
+    </script>
+</head>
+<body id="body3">
+
+    <div>
+        <p><h2>Q3 : What is the full form of HTML? &nbsp; <sub>3/5</sub></h1></p>
+            <br><br>
+      </div>
+    <div>
+        <form action="./ques4.html">
+          <input type="radio" required id="four" name="4"> Hyper Test Markup Language <br></input> <br>
+          <input type="radio" required id="five" name="4"> Hiper Text Markap Language <br></input> <br>
+          <input type="radio" required id="six" name="4"> Hypar Txst Markup Language <br></input> <br>
+          <input type="radio" required id="seven" name="4"> Hyper Text Markup Language <br></input>
+        
+      
+        </div>
+         <br><br><br>
+        
+        <button onclick="btn()" id="btn1">Next</button>
+    </form>
+        
+    
+</body>
+</html>

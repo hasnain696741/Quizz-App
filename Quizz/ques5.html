@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function btn(){
+    // var score = 0
+    var opt1 = document.getElementById('ans1')
+    var opt2 = document.getElementById('ans2')
+    correctans:{
+        opt2
+    }
+    var opt3 = document.getElementById('ans3')
+    var opt4 = document.getElementById('ans4')
+    
+    if( opt2.checked == true ){
+        alert('correct')
+    }
+   else{
+    alert('wrong')
+   }
+
+
+}
+
+    </script>
+    <style>
+        #ans1{
+            position: relative;
+            right: 15px;
+        }
+        #ans3{
+            position: relative;
+            right: 39px;
+        }
+        #ans4{
+            position: relative;
+            right: 33px;
+        }
+    </style>
+</head>
+<body id="body5">
+    
+    <div>
+        <p><h2>Q5 : Who is the Father of Chemistry? &nbsp; <sub>5/5</sub></h1></p>
+        <br>
+        <br>
+        <br>
+      </div>
+    <div>
+        <form action="./image.html">       
+          <input type="radio" required id="ans1" name="4"> &nbsp; &nbsp;  Bu - Ali - Sina <br></input> <br>
+          <input type="radio" required id="ans2" name="4">&nbsp;  &nbsp; Jabir - Bin - Hayyan <br></input> <br>
+          <input type="radio" required id="ans3" name="4"> &nbsp; &nbsp;  Al-Razi <br></input> <br>
+          <input type="radio" required id="ans4" name="4"> &nbsp; &nbsp;  Al-Beruni <br></input>
+        
+       
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <button onclick="btn()" id="btn1">Next</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,124 @@
+
+#body1{
+    background-color: black;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+
+#body2{
+    background-color: black;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
+#body3{
+    background-color: black;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
+#body4{
+    background-color: black;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
+#body5{
+    background-color: black;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
+#btn1{
+    width: 70px;
+    height: 40px;
+
+}
+#btn1:hover{
+    opacity: 0.5;
+}
+#inp-gmail{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+    left: 410px;
+    box-shadow: 5px 2px aqua;
+
+}
+#inp-pass{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 260px;
+    left: 100px;
+    box-shadow: 5px 2px aqua;
+}
+#btn-log{
+    position: relative;
+    top: 360px;
+  right: 110px;
+  background-color: white;
+  color: black;
+  width: 70px;
+  height: 40px;
+  font-size: large;
+  box-shadow: 5px 1px white;
+
+}
+#btn-log:hover{
+    opacity: 0.5;
+}
+body{
+    background-color: black;
+    color: aqua;
+}
+#log-hea{
+  position: relative;
+  top: 100px;
+  left: 470px;
+  
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
